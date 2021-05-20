@@ -1,0 +1,30 @@
+.navbar111  {
+  width: 1920px;
+  height: 84px;
+  padding: 20px 121px 20px 96px;
+  box-shadow: -1.4px -1.4px 6px 0 #97a2a0;
+  background-color: var(--white);
+}
+
+.topImg  {
+  width: 1920px;
+  height: 580px;
+  margin: 84px 0 79px;
+  padding: 255px 814px 272px;
+  object-fit: contain;
+}
+
+.yo {
+  background-color: black;
+}
+.box {
+	display: flex;
+	flex-direction: row;
+}
+
+.box1 {
+	background-color: pink;
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}

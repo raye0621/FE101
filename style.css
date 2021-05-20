@@ -1,0 +1,38 @@
+#box1 {
+	width: 200px;
+	height: 100px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 100px;
+	color: black;
+	border: 2px solid orange;
+	transition:  all 1s ease-in;
+}
+/*如果只有一行字，可以 line-hight 設定 50% ，會直接垂直至中*/
+
+#box1:hover {
+	background: orange;
+	color: white;
+	cursor: pointer; /*滑鼠點擊效果*/
+	width: 300px;
+	height: 200px;
+}
+
+#box3 {
+	width: 200px;
+	height: 100px;
+	color: red;
+	border: 3px solid;
+	background-color: yellow;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div span{
+	background-color: green;
+}
